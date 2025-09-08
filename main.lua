@@ -1,5 +1,4 @@
--- main.lua
--- LOVE2D ping tool with subtle rainbow gradient and transparent UI
+--LOVE2D Ping Tool, made by Mr. Monke 1432 (monkemonke1432 on github/itch.io)
 
 local socket = require("socket")
 
@@ -314,3 +313,4 @@ function love.keypressed(key)
         ui.protocolIndex=((ui.protocolIndex-1+dir) % #ui.protocols)+1
     end
 end
+
